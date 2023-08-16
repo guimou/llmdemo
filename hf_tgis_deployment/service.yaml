@@ -9,10 +9,6 @@ spec:
   ipFamilies:
     - IPv4
   ports:
-    - name: grpc
-      protocol: TCP
-      port: 8033
-      targetPort: grpc
     - name: http
       protocol: TCP
       port: 3000
